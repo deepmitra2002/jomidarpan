@@ -1,0 +1,44 @@
+JOMIDARPAN SUBMISSION FORM ANSWERS
+
+TITLE
+জমিদর্পণ Jomidarpan Citizen Pre Purchase Land Verification
+
+ABSTRACT
+Jomidarpan is a Bengali-first citizen pre-purchase land-document comparison prototype built for the LandTech 2026 P5 problem statement. It lets a buyer search a 500-record demonstration database, review information extracted from a seller's PDF or CSV, and compare 21 fields with evidence for every match, difference or missing value. Pretrained OCR supports reading, while an optional Gemini assistant explains concepts without changing the deterministic result; agreement with the sample database is not legal ownership certification.
+
+THE PROBLEM
+A land buyer receives details such as an owner's name, plot number, khatian, deed dates, land area and mutation status from a seller, often across scanned Bangla documents. The specific failure addressed by Jomidarpan is that the buyer has no simple, consistent way to compare all of those supplied values against a selected reference record and identify the exact discrepancy before proceeding. Manual reading can miss a changed owner, an inconsistent area or an absent field, while a single overall status hides the reason for disagreement.
+
+The LandTech 2026 rulebook describes the Bangladesh context of forged deeds, conflicting survey records and records split between registration and mutation offices. Jomidarpan addresses a bounded part of that problem through citizen-facing document comparison. The current demonstration does not connect to official land or police systems, determine legal title, or comprehensively clear pending cases, khas land or acquisition status.
+
+YOUR SOLUTION
+The buyer first searches by record, plot, khatian or deed number; Bangla and English digits are normalized. The buyer selects the intended reference record explicitly so the system does not silently choose between ambiguous parcels. A PDF is read in the browser using PDF.js embedded-text extraction, with Tesseract OCR as a fallback; a CSV is read by the shared parser. The extracted values are then shown in an editable review screen.
+
+After the buyer confirms the reviewed information, the server receives the selected record ID, 21 reviewed values and their provenance. It reads the same versioned D1 database that powers search and applies deterministic normalization and comparison rules. A complete match yields Verified; any different or missing required field yields Unverified, with the document value, reference value, rule and source evidence exposed. An incomplete reference database blocks a successful verdict. Editing a reviewed value invalidates the old result.
+
+A separate crime tab returns only eligible public demonstration reports. A nine-step tour and responsive Bengali interface guide users through the process. Gemini can explain concepts or an allowlisted summary of counts and field names, but it cannot change a comparison outcome. Original documents are processed in the browser and are not persisted by the rebuilt application.
+
+TECH STACK
+The application uses TypeScript and JavaScript with React 19, Vinext, Next.js-compatible API routes and Vite. The main Bengali studio is implemented in HTML, CSS and JavaScript, with responsive bottom navigation and an accessible guided tour. Cloudflare Workers host the API and D1 stores the versioned reference records and assistant quota counters; Drizzle defines the schema and SQL migrations.
+
+PDF.js handles embedded PDF text and Tesseract supplies pretrained Bangla/English OCR. The retained experimental handwriting path uses Transformers.js, an ONNX Qwen3.5 model and WebGPU on compatible devices. The optional citizen assistant uses AI SDK 7 with the Google provider and a server-side Gemini key. The verification engine is rule-based rather than a trained fraud classifier. Testing uses Node's test runner, Happy DOM, TypeScript and Miniflare; dependencies are pinned through pnpm and its lockfile.
+
+DATA SOURCES
+The current prototype uses the supplied LandTech v5 demonstration corpus of 500 records and 50 paired submission cases, distributed as 50 PDFs and 50 CSVs. Cases 001 to 030 are intended to match their selected reference records; cases 031 to 050 contain deliberate differences or missing information. Both formats are tested using actual extracted/parsed values, not filename-based expected-result flags.
+
+These materials are treated as synthetic/sample records, not official records of real individuals. The separately supplied older v2 reference and old SYN files are excluded from active comparison. Before competition submission, the team must confirm whether the supplied v5 fixtures qualify as team-created synthetic data or organizer-provided samples under rulebook section 8. No government scraping, bulk portal queries or real citizen records are required by this workflow.
+
+REPOSITORY
+https://github.com/deepmitra2002/jomidarpan
+
+LIVE PROTOTYPE
+https://jomidarpan.dncorleone1211.chatgpt.site
+
+DEMO VIDEO
+[Insert accessible URL]
+
+SLIDE DECK
+[Insert accessible URL]
+
+CONCEPT NOTE
+Attach Jomidarpan_Concept_Note.pdf
