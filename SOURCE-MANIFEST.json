@@ -20,9 +20,59 @@
     "sha256": "1a88b28409c2d059739b674ee73a4b506636377802696d18b09817ff12fe2865"
   },
   {
+    "path": "API.md",
+    "bytes": 3089,
+    "sha256": "29b05489a53ec52bbf48c07ad1828b2757b1ed87045e3df4fb8891fbdb28bc49"
+  },
+  {
+    "path": "ARCHITECTURE.md",
+    "bytes": 2493,
+    "sha256": "03eee75a248dab6cd9536940175048ce44792ba79fc87172fa7ead17aa1c8e71"
+  },
+  {
+    "path": "CHANGELOG.md",
+    "bytes": 1275,
+    "sha256": "e747602e2c2f1faf9cce4800cb9ae1b96b275ed1ae82feabb27521fdb8cbf029"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "bytes": 2145,
+    "sha256": "3d9806f968905d224f3be8ec5e03463b23edf977a881f0e932ca027fca6696bf"
+  },
+  {
+    "path": "DATASET.md",
+    "bytes": 2673,
+    "sha256": "c84762a329a08028c334316aaf1b7098d42d7f06d1a6aa99e7fd28cc8c7f8506"
+  },
+  {
     "path": "README.md",
-    "bytes": 7316,
-    "sha256": "160bc7b0074a0b34beef3734f69a88a371066ed046d1cfbd1e8295a817398b40"
+    "bytes": 14335,
+    "sha256": "cb8bf3a34ad0e80f93d6a6fef9c2745cbe6a1c65ed8ee02d36b46f937db2f478"
+  },
+  {
+    "path": "ROADMAP.md",
+    "bytes": 2200,
+    "sha256": "d6d142070d26881825d3fb9b231084a66b69a54cd1f0b7ebc38326ff9a16c2bc"
+  },
+  {
+    "path": "SCREENSHOTS.md",
+    "bytes": 1401,
+    "sha256": "82a0c17c4507278273c1d984a88f6ea8fcd4ca9a46b77ecf5bc190c9f5a96d53"
+  },
+  {
+    "path": "SECURITY.md",
+    "bytes": 2460,
+    "sha256": "9c5031cf4555efd904273d64292f04a18cd139b986a5382c39635d869ad60298"
+  },
+  {
+    "path": "TESTING.md",
+    "bytes": 1458,
+    "sha256": "b551924a3af375ad37518af80cfa0778465d2a558b8d36d75c775c93df1405f6"
+  },
+  {
+    "path": "USER_GUIDE.md",
+    "bytes": 3035,
+    "sha256": "58b88c070644c9c3d8ddb51aa99be514e0c8162e9eee807d5f11ac72c680ac38"
   },
   {
     "path": "app/api/assistant/route.ts",
@@ -73,6 +123,16 @@
     "path": "app/page.tsx",
     "bytes": 100,
     "sha256": "21d33dc07f10dbcf6c1212d19244481998d334342300317de8211ba5f67ab11a"
+  },
+  {
+    "path": "banner.png",
+    "bytes": 119428,
+    "sha256": "ade52fd5f9c4c081e558d7eb8fdae6a8e2beece520e42dda05710c145302ee0d"
+  },
+  {
+    "path": "banner.svg",
+    "bytes": 3752,
+    "sha256": "1c2f7b8e090c151a8614836318266eb2f5634de61dbf23dc835d479542babe09"
   },
   {
     "path": "build/connector-preview-plugin.mjs",

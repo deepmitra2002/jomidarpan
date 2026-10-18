@@ -1,6 +1,6 @@
 # App screenshot gallery
 
-Actual tab screenshots are pending. The managed environment currently lacks the supported browser-preview capability, so screenshots have not been fabricated or replaced with mockups.
+Actual tab screenshots are pending. The README banner is a project illustration, not a screenshot. The managed environment currently lacks the supported browser-preview capability, so screenshots have not been fabricated or replaced with mockups.
 
 Capture the live app after opening each tab. Use the demo fixtures only, close incidental overlays, and avoid exposing account information or API credentials. Store PNG files in `docs/screenshots/`, then embed them in README.md using relative paths.
 
