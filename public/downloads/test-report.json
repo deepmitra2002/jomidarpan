@@ -1,0 +1,518 @@
+{
+  "project": "জমিদর্পণ",
+  "tested_at": "2026-10-18T13:08:18.128Z",
+  "reference_count": 500,
+  "test_method": "Actual PDF.js extraction, shared CSV parser and application comparison service; isolated Node environment. Hosted browser uploads not tested.",
+  "pdf": {
+    "verified": 30,
+    "unverified": 20
+  },
+  "csv": {
+    "verified": 30,
+    "unverified": 20
+  },
+  "cases": [
+    {
+      "submission": "001",
+      "reference": "LND-0001",
+      "csv": "verified",
+      "pdf": "verified",
+      "matched": 21,
+      "different": [],
+      "missing": []
+    },
+    {
+      "submission": "002",
+      "reference": "LND-0002",
+      "csv": "verified",
+      "pdf": "verified",
+      "matched": 21,
+      "different": [],
+      "missing": []
+    },
+    {
+      "submission": "003",
+      "reference": "LND-0003",
+      "csv": "verified",
+      "pdf": "verified",
+      "matched": 21,
+      "different": [],
+      "missing": []
+    },
+    {
+      "submission": "004",
+      "reference": "LND-0004",
+      "csv": "verified",
+      "pdf": "verified",
+      "matched": 21,
+      "different": [],
+      "missing": []
+    },
+    {
+      "submission": "005",
+      "reference": "LND-0005",
+      "csv": "verified",
+      "pdf": "verified",
+      "matched": 21,
+      "different": [],
+      "missing": []
+    },
+    {
+      "submission": "006",
+      "reference": "LND-0006",
+      "csv": "verified",
+      "pdf": "verified",
+      "matched": 21,
+      "different": [],
+      "missing": []
+    },
+    {
+      "submission": "007",
+      "reference": "LND-0007",
+      "csv": "verified",
+      "pdf": "verified",
+      "matched": 21,
+      "different": [],
+      "missing": []
+    },
+    {
+      "submission": "008",
+      "reference": "LND-0008",
+      "csv": "verified",
+      "pdf": "verified",
+      "matched": 21,
+      "different": [],
+      "missing": []
+    },
+    {
+      "submission": "009",
+      "reference": "LND-0009",
+      "csv": "verified",
+      "pdf": "verified",
+      "matched": 21,
+      "different": [],
+      "missing": []
+    },
+    {
+      "submission": "010",
+      "reference": "LND-0010",
+      "csv": "verified",
+      "pdf": "verified",
+      "matched": 21,
+      "different": [],
+      "missing": []
+    },
+    {
+      "submission": "011",
+      "reference": "LND-0011",
+      "csv": "verified",
+      "pdf": "verified",
+      "matched": 21,
+      "different": [],
+      "missing": []
+    },
+    {
+      "submission": "012",
+      "reference": "LND-0012",
+      "csv": "verified",
+      "pdf": "verified",
+      "matched": 21,
+      "different": [],
+      "missing": []
+    },
+    {
+      "submission": "013",
+      "reference": "LND-0013",
+      "csv": "verified",
+      "pdf": "verified",
+      "matched": 21,
+      "different": [],
+      "missing": []
+    },
+    {
+      "submission": "014",
+      "reference": "LND-0014",
+      "csv": "verified",
+      "pdf": "verified",
+      "matched": 21,
+      "different": [],
+      "missing": []
+    },
+    {
+      "submission": "015",
+      "reference": "LND-0015",
+      "csv": "verified",
+      "pdf": "verified",
+      "matched": 21,
+      "different": [],
+      "missing": []
+    },
+    {
+      "submission": "016",
+      "reference": "LND-0016",
+      "csv": "verified",
+      "pdf": "verified",
+      "matched": 21,
+      "different": [],
+      "missing": []
+    },
+    {
+      "submission": "017",
+      "reference": "LND-0017",
+      "csv": "verified",
+      "pdf": "verified",
+      "matched": 21,
+      "different": [],
+      "missing": []
+    },
+    {
+      "submission": "018",
+      "reference": "LND-0018",
+      "csv": "verified",
+      "pdf": "verified",
+      "matched": 21,
+      "different": [],
+      "missing": []
+    },
+    {
+      "submission": "019",
+      "reference": "LND-0019",
+      "csv": "verified",
+      "pdf": "verified",
+      "matched": 21,
+      "different": [],
+      "missing": []
+    },
+    {
+      "submission": "020",
+      "reference": "LND-0020",
+      "csv": "verified",
+      "pdf": "verified",
+      "matched": 21,
+      "different": [],
+      "missing": []
+    },
+    {
+      "submission": "021",
+      "reference": "LND-0021",
+      "csv": "verified",
+      "pdf": "verified",
+      "matched": 21,
+      "different": [],
+      "missing": []
+    },
+    {
+      "submission": "022",
+      "reference": "LND-0022",
+      "csv": "verified",
+      "pdf": "verified",
+      "matched": 21,
+      "different": [],
+      "missing": []
+    },
+    {
+      "submission": "023",
+      "reference": "LND-0023",
+      "csv": "verified",
+      "pdf": "verified",
+      "matched": 21,
+      "different": [],
+      "missing": []
+    },
+    {
+      "submission": "024",
+      "reference": "LND-0024",
+      "csv": "verified",
+      "pdf": "verified",
+      "matched": 21,
+      "different": [],
+      "missing": []
+    },
+    {
+      "submission": "025",
+      "reference": "LND-0025",
+      "csv": "verified",
+      "pdf": "verified",
+      "matched": 21,
+      "different": [],
+      "missing": []
+    },
+    {
+      "submission": "026",
+      "reference": "LND-0026",
+      "csv": "verified",
+      "pdf": "verified",
+      "matched": 21,
+      "different": [],
+      "missing": []
+    },
+    {
+      "submission": "027",
+      "reference": "LND-0027",
+      "csv": "verified",
+      "pdf": "verified",
+      "matched": 21,
+      "different": [],
+      "missing": []
+    },
+    {
+      "submission": "028",
+      "reference": "LND-0028",
+      "csv": "verified",
+      "pdf": "verified",
+      "matched": 21,
+      "different": [],
+      "missing": []
+    },
+    {
+      "submission": "029",
+      "reference": "LND-0029",
+      "csv": "verified",
+      "pdf": "verified",
+      "matched": 21,
+      "different": [],
+      "missing": []
+    },
+    {
+      "submission": "030",
+      "reference": "LND-0030",
+      "csv": "verified",
+      "pdf": "verified",
+      "matched": 21,
+      "different": [],
+      "missing": []
+    },
+    {
+      "submission": "031",
+      "reference": "LND-0031",
+      "csv": "unverified",
+      "pdf": "unverified",
+      "matched": 20,
+      "different": [
+        "owner"
+      ],
+      "missing": []
+    },
+    {
+      "submission": "032",
+      "reference": "LND-0032",
+      "csv": "unverified",
+      "pdf": "unverified",
+      "matched": 20,
+      "different": [
+        "plot"
+      ],
+      "missing": []
+    },
+    {
+      "submission": "033",
+      "reference": "LND-0033",
+      "csv": "unverified",
+      "pdf": "unverified",
+      "matched": 20,
+      "different": [
+        "khatian"
+      ],
+      "missing": []
+    },
+    {
+      "submission": "034",
+      "reference": "LND-0034",
+      "csv": "unverified",
+      "pdf": "unverified",
+      "matched": 20,
+      "different": [
+        "mouza"
+      ],
+      "missing": []
+    },
+    {
+      "submission": "035",
+      "reference": "LND-0035",
+      "csv": "unverified",
+      "pdf": "unverified",
+      "matched": 20,
+      "different": [
+        "survey"
+      ],
+      "missing": []
+    },
+    {
+      "submission": "036",
+      "reference": "LND-0036",
+      "csv": "unverified",
+      "pdf": "unverified",
+      "matched": 20,
+      "different": [
+        "area"
+      ],
+      "missing": []
+    },
+    {
+      "submission": "037",
+      "reference": "LND-0037",
+      "csv": "unverified",
+      "pdf": "unverified",
+      "matched": 20,
+      "different": [
+        "seller_share"
+      ],
+      "missing": []
+    },
+    {
+      "submission": "038",
+      "reference": "LND-0038",
+      "csv": "unverified",
+      "pdf": "unverified",
+      "matched": 20,
+      "different": [
+        "deed_number"
+      ],
+      "missing": []
+    },
+    {
+      "submission": "039",
+      "reference": "LND-0039",
+      "csv": "unverified",
+      "pdf": "unverified",
+      "matched": 20,
+      "different": [
+        "deed_date"
+      ],
+      "missing": []
+    },
+    {
+      "submission": "040",
+      "reference": "LND-0040",
+      "csv": "unverified",
+      "pdf": "unverified",
+      "matched": 20,
+      "different": [
+        "registration_date"
+      ],
+      "missing": []
+    },
+    {
+      "submission": "041",
+      "reference": "LND-0041",
+      "csv": "unverified",
+      "pdf": "unverified",
+      "matched": 20,
+      "different": [
+        "previous_owner"
+      ],
+      "missing": []
+    },
+    {
+      "submission": "042",
+      "reference": "LND-0042",
+      "csv": "unverified",
+      "pdf": "unverified",
+      "matched": 20,
+      "different": [
+        "previous_deed"
+      ],
+      "missing": []
+    },
+    {
+      "submission": "043",
+      "reference": "LND-0043",
+      "csv": "unverified",
+      "pdf": "unverified",
+      "matched": 20,
+      "different": [
+        "previous_deed_date"
+      ],
+      "missing": []
+    },
+    {
+      "submission": "044",
+      "reference": "LND-0044",
+      "csv": "unverified",
+      "pdf": "unverified",
+      "matched": 20,
+      "different": [
+        "mutation_status"
+      ],
+      "missing": []
+    },
+    {
+      "submission": "045",
+      "reference": "LND-0045",
+      "csv": "unverified",
+      "pdf": "unverified",
+      "matched": 20,
+      "different": [
+        "tax_year"
+      ],
+      "missing": []
+    },
+    {
+      "submission": "046",
+      "reference": "LND-0046",
+      "csv": "unverified",
+      "pdf": "unverified",
+      "matched": 20,
+      "different": [
+        "tax_status"
+      ],
+      "missing": []
+    },
+    {
+      "submission": "047",
+      "reference": "LND-0047",
+      "csv": "unverified",
+      "pdf": "unverified",
+      "matched": 20,
+      "different": [
+        "jl"
+      ],
+      "missing": []
+    },
+    {
+      "submission": "048",
+      "reference": "LND-0048",
+      "csv": "unverified",
+      "pdf": "unverified",
+      "matched": 20,
+      "different": [
+        "classification"
+      ],
+      "missing": []
+    },
+    {
+      "submission": "049",
+      "reference": "LND-0049",
+      "csv": "unverified",
+      "pdf": "unverified",
+      "matched": 20,
+      "different": [
+        "upazila"
+      ],
+      "missing": []
+    },
+    {
+      "submission": "050",
+      "reference": "LND-0050",
+      "csv": "unverified",
+      "pdf": "unverified",
+      "matched": 20,
+      "different": [],
+      "missing": [
+        "previous_owner"
+      ]
+    }
+  ],
+  "server_tests": {
+    "environment": "isolated production Worker with D1",
+    "records": 500,
+    "comparison_api": {
+      "verified": 30,
+      "unverified": 20
+    },
+    "search": "English and Bangla digits; missing records",
+    "restricted_crime": "not exposed",
+    "partial_database": "comparison blocked with HTTP 503",
+    "browser_device_uploads_tested": false
+  }
+}

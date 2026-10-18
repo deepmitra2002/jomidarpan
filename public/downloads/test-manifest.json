@@ -1,0 +1,729 @@
+{
+  "dataset_id": "landtech-reference-v5",
+  "case_count": 50,
+  "matched": 30,
+  "mismatched": 20,
+  "expectation_source": "Authored alterations before engine execution",
+  "cases": [
+    {
+      "case_id": "CHK-2026-0001",
+      "baseline_record_id": "LND-0001",
+      "pdf": "pdf/submission-001.pdf",
+      "csv": "csv/submission-001.csv",
+      "pages": 1,
+      "sha256": "3ae7550ce9cd8bf91a193bca27f0f01f4f007be4a5894a2f50709876040f5dba",
+      "expected_status": "MATCHED_WITH_DATABASE",
+      "declared_changed_fields": [],
+      "expected_database_values": {},
+      "document_values": {}
+    },
+    {
+      "case_id": "CHK-2026-0002",
+      "baseline_record_id": "LND-0002",
+      "pdf": "pdf/submission-002.pdf",
+      "csv": "csv/submission-002.csv",
+      "pages": 1,
+      "sha256": "e62b271033c3d4caf217e59539499c73d37d2316c5439c0312d3117cfecfe297",
+      "expected_status": "MATCHED_WITH_DATABASE",
+      "declared_changed_fields": [],
+      "expected_database_values": {},
+      "document_values": {}
+    },
+    {
+      "case_id": "CHK-2026-0003",
+      "baseline_record_id": "LND-0003",
+      "pdf": "pdf/submission-003.pdf",
+      "csv": "csv/submission-003.csv",
+      "pages": 1,
+      "sha256": "1e5b09a53e7c666ef96d87a6524192663fd636af617decea7737047cd3abb0ab",
+      "expected_status": "MATCHED_WITH_DATABASE",
+      "declared_changed_fields": [],
+      "expected_database_values": {},
+      "document_values": {}
+    },
+    {
+      "case_id": "CHK-2026-0004",
+      "baseline_record_id": "LND-0004",
+      "pdf": "pdf/submission-004.pdf",
+      "csv": "csv/submission-004.csv",
+      "pages": 1,
+      "sha256": "e06a1ae3656f849c0eeac79cb9f79e34b4af731c60e0f341ac9a0d8eb58a0f34",
+      "expected_status": "MATCHED_WITH_DATABASE",
+      "declared_changed_fields": [],
+      "expected_database_values": {},
+      "document_values": {}
+    },
+    {
+      "case_id": "CHK-2026-0005",
+      "baseline_record_id": "LND-0005",
+      "pdf": "pdf/submission-005.pdf",
+      "csv": "csv/submission-005.csv",
+      "pages": 1,
+      "sha256": "d3a57b43e579b431ef14abb9b50874fe160d9b16c94f53d429f6ab96ebcfbf29",
+      "expected_status": "MATCHED_WITH_DATABASE",
+      "declared_changed_fields": [],
+      "expected_database_values": {},
+      "document_values": {}
+    },
+    {
+      "case_id": "CHK-2026-0006",
+      "baseline_record_id": "LND-0006",
+      "pdf": "pdf/submission-006.pdf",
+      "csv": "csv/submission-006.csv",
+      "pages": 1,
+      "sha256": "3a97ff6fd9f1ed315c788f8dd1b037c33f358ce1085b10f74ab1859485aed31c",
+      "expected_status": "MATCHED_WITH_DATABASE",
+      "declared_changed_fields": [],
+      "expected_database_values": {},
+      "document_values": {}
+    },
+    {
+      "case_id": "CHK-2026-0007",
+      "baseline_record_id": "LND-0007",
+      "pdf": "pdf/submission-007.pdf",
+      "csv": "csv/submission-007.csv",
+      "pages": 1,
+      "sha256": "7b4049d976ec85359b88ec6d277a8171eb444a0380ec06f9670a4c5380cb1be5",
+      "expected_status": "MATCHED_WITH_DATABASE",
+      "declared_changed_fields": [],
+      "expected_database_values": {},
+      "document_values": {}
+    },
+    {
+      "case_id": "CHK-2026-0008",
+      "baseline_record_id": "LND-0008",
+      "pdf": "pdf/submission-008.pdf",
+      "csv": "csv/submission-008.csv",
+      "pages": 1,
+      "sha256": "2507d8834300f2ab76d171a892a956eec0c391c198072a4553c5b7d27293ca28",
+      "expected_status": "MATCHED_WITH_DATABASE",
+      "declared_changed_fields": [],
+      "expected_database_values": {},
+      "document_values": {}
+    },
+    {
+      "case_id": "CHK-2026-0009",
+      "baseline_record_id": "LND-0009",
+      "pdf": "pdf/submission-009.pdf",
+      "csv": "csv/submission-009.csv",
+      "pages": 1,
+      "sha256": "db75e530c508348af28dc3c0d74b23569c5244a8359486536bbd07a2b6afee92",
+      "expected_status": "MATCHED_WITH_DATABASE",
+      "declared_changed_fields": [],
+      "expected_database_values": {},
+      "document_values": {}
+    },
+    {
+      "case_id": "CHK-2026-0010",
+      "baseline_record_id": "LND-0010",
+      "pdf": "pdf/submission-010.pdf",
+      "csv": "csv/submission-010.csv",
+      "pages": 1,
+      "sha256": "265ba47a5b0a7e44853ff3a89fe80e0ea557a1b3950eb2e3f689f71c706d11ac",
+      "expected_status": "MATCHED_WITH_DATABASE",
+      "declared_changed_fields": [],
+      "expected_database_values": {},
+      "document_values": {}
+    },
+    {
+      "case_id": "CHK-2026-0011",
+      "baseline_record_id": "LND-0011",
+      "pdf": "pdf/submission-011.pdf",
+      "csv": "csv/submission-011.csv",
+      "pages": 1,
+      "sha256": "d33650ed10b0c46cc1ccacc9578af5e0be0e5a5ab07e0567bb48e65a8c116f8b",
+      "expected_status": "MATCHED_WITH_DATABASE",
+      "declared_changed_fields": [],
+      "expected_database_values": {},
+      "document_values": {}
+    },
+    {
+      "case_id": "CHK-2026-0012",
+      "baseline_record_id": "LND-0012",
+      "pdf": "pdf/submission-012.pdf",
+      "csv": "csv/submission-012.csv",
+      "pages": 1,
+      "sha256": "cc1dded32fd382c7b7457e054b8848e13d09164cd5b84cd2ef1313f8296f1ec7",
+      "expected_status": "MATCHED_WITH_DATABASE",
+      "declared_changed_fields": [],
+      "expected_database_values": {},
+      "document_values": {}
+    },
+    {
+      "case_id": "CHK-2026-0013",
+      "baseline_record_id": "LND-0013",
+      "pdf": "pdf/submission-013.pdf",
+      "csv": "csv/submission-013.csv",
+      "pages": 1,
+      "sha256": "3b877cf8b59f3df9fb91e38c6504830a635ef9eb3527a60e3343f1e9a12ab961",
+      "expected_status": "MATCHED_WITH_DATABASE",
+      "declared_changed_fields": [],
+      "expected_database_values": {},
+      "document_values": {}
+    },
+    {
+      "case_id": "CHK-2026-0014",
+      "baseline_record_id": "LND-0014",
+      "pdf": "pdf/submission-014.pdf",
+      "csv": "csv/submission-014.csv",
+      "pages": 1,
+      "sha256": "77ec4e79650a9d14edef3f5fe6de4c5ec97704f1b09f510cfc8eb9ea15625f92",
+      "expected_status": "MATCHED_WITH_DATABASE",
+      "declared_changed_fields": [],
+      "expected_database_values": {},
+      "document_values": {}
+    },
+    {
+      "case_id": "CHK-2026-0015",
+      "baseline_record_id": "LND-0015",
+      "pdf": "pdf/submission-015.pdf",
+      "csv": "csv/submission-015.csv",
+      "pages": 1,
+      "sha256": "0fd0eadd634537c5381dca8bb69a7fe29374828e2a7efaa6de2d81917aced374",
+      "expected_status": "MATCHED_WITH_DATABASE",
+      "declared_changed_fields": [],
+      "expected_database_values": {},
+      "document_values": {}
+    },
+    {
+      "case_id": "CHK-2026-0016",
+      "baseline_record_id": "LND-0016",
+      "pdf": "pdf/submission-016.pdf",
+      "csv": "csv/submission-016.csv",
+      "pages": 1,
+      "sha256": "389d8360c44e5ba2195d2f6983d0f6ae2850d2f89ee0026753f591803c1c8e5e",
+      "expected_status": "MATCHED_WITH_DATABASE",
+      "declared_changed_fields": [],
+      "expected_database_values": {},
+      "document_values": {}
+    },
+    {
+      "case_id": "CHK-2026-0017",
+      "baseline_record_id": "LND-0017",
+      "pdf": "pdf/submission-017.pdf",
+      "csv": "csv/submission-017.csv",
+      "pages": 1,
+      "sha256": "455874ede558add38371a55eac230fee0c0dd7e3fec21fde333984d58d4fb617",
+      "expected_status": "MATCHED_WITH_DATABASE",
+      "declared_changed_fields": [],
+      "expected_database_values": {},
+      "document_values": {}
+    },
+    {
+      "case_id": "CHK-2026-0018",
+      "baseline_record_id": "LND-0018",
+      "pdf": "pdf/submission-018.pdf",
+      "csv": "csv/submission-018.csv",
+      "pages": 1,
+      "sha256": "088a9cb7cbc503d9d4befb4d84b570743eb61ac751e0243144f5c42de64f0831",
+      "expected_status": "MATCHED_WITH_DATABASE",
+      "declared_changed_fields": [],
+      "expected_database_values": {},
+      "document_values": {}
+    },
+    {
+      "case_id": "CHK-2026-0019",
+      "baseline_record_id": "LND-0019",
+      "pdf": "pdf/submission-019.pdf",
+      "csv": "csv/submission-019.csv",
+      "pages": 1,
+      "sha256": "c96f727597a1d7373fe524a6dd1e399219ff892eae1f142b8a984ff7c4303e3c",
+      "expected_status": "MATCHED_WITH_DATABASE",
+      "declared_changed_fields": [],
+      "expected_database_values": {},
+      "document_values": {}
+    },
+    {
+      "case_id": "CHK-2026-0020",
+      "baseline_record_id": "LND-0020",
+      "pdf": "pdf/submission-020.pdf",
+      "csv": "csv/submission-020.csv",
+      "pages": 1,
+      "sha256": "b0bdadc6041561272f5b79b792368afdc130324e5f1cc6a75923b78636966d7f",
+      "expected_status": "MATCHED_WITH_DATABASE",
+      "declared_changed_fields": [],
+      "expected_database_values": {},
+      "document_values": {}
+    },
+    {
+      "case_id": "CHK-2026-0021",
+      "baseline_record_id": "LND-0021",
+      "pdf": "pdf/submission-021.pdf",
+      "csv": "csv/submission-021.csv",
+      "pages": 1,
+      "sha256": "ce2b8a0b287df780d97d19d96103d22abce1c51027c2dfa64a3c7086d65b1f39",
+      "expected_status": "MATCHED_WITH_DATABASE",
+      "declared_changed_fields": [],
+      "expected_database_values": {},
+      "document_values": {}
+    },
+    {
+      "case_id": "CHK-2026-0022",
+      "baseline_record_id": "LND-0022",
+      "pdf": "pdf/submission-022.pdf",
+      "csv": "csv/submission-022.csv",
+      "pages": 1,
+      "sha256": "c2aeafa39d7c688e94f0b0012a967443dbeba3b3946c05a2594522be347fd4c7",
+      "expected_status": "MATCHED_WITH_DATABASE",
+      "declared_changed_fields": [],
+      "expected_database_values": {},
+      "document_values": {}
+    },
+    {
+      "case_id": "CHK-2026-0023",
+      "baseline_record_id": "LND-0023",
+      "pdf": "pdf/submission-023.pdf",
+      "csv": "csv/submission-023.csv",
+      "pages": 1,
+      "sha256": "5299432bf27dacdc363262b6c7d45c24ab7d61c8cdbee4cdbca79d4bd8027030",
+      "expected_status": "MATCHED_WITH_DATABASE",
+      "declared_changed_fields": [],
+      "expected_database_values": {},
+      "document_values": {}
+    },
+    {
+      "case_id": "CHK-2026-0024",
+      "baseline_record_id": "LND-0024",
+      "pdf": "pdf/submission-024.pdf",
+      "csv": "csv/submission-024.csv",
+      "pages": 1,
+      "sha256": "7e50d3e0bc6023e2d2e5355d5c0517cc39da832cbd230ff4fc43c13d1493e05c",
+      "expected_status": "MATCHED_WITH_DATABASE",
+      "declared_changed_fields": [],
+      "expected_database_values": {},
+      "document_values": {}
+    },
+    {
+      "case_id": "CHK-2026-0025",
+      "baseline_record_id": "LND-0025",
+      "pdf": "pdf/submission-025.pdf",
+      "csv": "csv/submission-025.csv",
+      "pages": 1,
+      "sha256": "64c7c7c810493e5c154466c74e079b7bda7c4b7451a30901ad162fbc8e605a44",
+      "expected_status": "MATCHED_WITH_DATABASE",
+      "declared_changed_fields": [],
+      "expected_database_values": {},
+      "document_values": {}
+    },
+    {
+      "case_id": "CHK-2026-0026",
+      "baseline_record_id": "LND-0026",
+      "pdf": "pdf/submission-026.pdf",
+      "csv": "csv/submission-026.csv",
+      "pages": 1,
+      "sha256": "8f310180ff043c13eee41650a4dcb68e5017cf1a63e70790aa819ef911befec4",
+      "expected_status": "MATCHED_WITH_DATABASE",
+      "declared_changed_fields": [],
+      "expected_database_values": {},
+      "document_values": {}
+    },
+    {
+      "case_id": "CHK-2026-0027",
+      "baseline_record_id": "LND-0027",
+      "pdf": "pdf/submission-027.pdf",
+      "csv": "csv/submission-027.csv",
+      "pages": 1,
+      "sha256": "075636b1a0168dee41e47643fc7db399ffc44af170413d85b4d247119adb55e4",
+      "expected_status": "MATCHED_WITH_DATABASE",
+      "declared_changed_fields": [],
+      "expected_database_values": {},
+      "document_values": {}
+    },
+    {
+      "case_id": "CHK-2026-0028",
+      "baseline_record_id": "LND-0028",
+      "pdf": "pdf/submission-028.pdf",
+      "csv": "csv/submission-028.csv",
+      "pages": 1,
+      "sha256": "92015de77a72564605c2a5dedc856d6d669b965ca5f82ff2c712ca58e4f1df0c",
+      "expected_status": "MATCHED_WITH_DATABASE",
+      "declared_changed_fields": [],
+      "expected_database_values": {},
+      "document_values": {}
+    },
+    {
+      "case_id": "CHK-2026-0029",
+      "baseline_record_id": "LND-0029",
+      "pdf": "pdf/submission-029.pdf",
+      "csv": "csv/submission-029.csv",
+      "pages": 1,
+      "sha256": "106565f0265e550a063d20bf6a639069d06917447ea9c9c7605f327b9e8226ae",
+      "expected_status": "MATCHED_WITH_DATABASE",
+      "declared_changed_fields": [],
+      "expected_database_values": {},
+      "document_values": {}
+    },
+    {
+      "case_id": "CHK-2026-0030",
+      "baseline_record_id": "LND-0030",
+      "pdf": "pdf/submission-030.pdf",
+      "csv": "csv/submission-030.csv",
+      "pages": 1,
+      "sha256": "3ef67c7239c0717445d087ef0828cf8d8b3289e114d5dcd30b739b2e2e5e8b77",
+      "expected_status": "MATCHED_WITH_DATABASE",
+      "declared_changed_fields": [],
+      "expected_database_values": {},
+      "document_values": {}
+    },
+    {
+      "case_id": "CHK-2026-0031",
+      "baseline_record_id": "LND-0031",
+      "pdf": "pdf/submission-031.pdf",
+      "csv": "csv/submission-031.csv",
+      "pages": 1,
+      "sha256": "b2ef63b22eb7ef6c4195702caffe9b1187f7cbf51134d34bb8e57e9bcd2bc40a",
+      "expected_status": "MISMATCHED_WITH_DATABASE",
+      "declared_changed_fields": [
+        "owner"
+      ],
+      "expected_database_values": {
+        "owner": "Ariful Islam"
+      },
+      "document_values": {
+        "owner": "Sadia Kabir"
+      }
+    },
+    {
+      "case_id": "CHK-2026-0032",
+      "baseline_record_id": "LND-0032",
+      "pdf": "pdf/submission-032.pdf",
+      "csv": "csv/submission-032.csv",
+      "pages": 1,
+      "sha256": "2efab84dcf9bd59c79ee7406bd6e47038447a4962adb17292261165f32269942",
+      "expected_status": "MISMATCHED_WITH_DATABASE",
+      "declared_changed_fields": [
+        "plot"
+      ],
+      "expected_database_values": {
+        "plot": "2032"
+      },
+      "document_values": {
+        "plot": "9207"
+      }
+    },
+    {
+      "case_id": "CHK-2026-0033",
+      "baseline_record_id": "LND-0033",
+      "pdf": "pdf/submission-033.pdf",
+      "csv": "csv/submission-033.csv",
+      "pages": 1,
+      "sha256": "4f696723996bd242f3f3c9d114e028e746d5c090bed5600e789b1d3a2667bda3",
+      "expected_status": "MISMATCHED_WITH_DATABASE",
+      "declared_changed_fields": [
+        "khatian"
+      ],
+      "expected_database_values": {
+        "khatian": "1033"
+      },
+      "document_values": {
+        "khatian": "6851"
+      }
+    },
+    {
+      "case_id": "CHK-2026-0034",
+      "baseline_record_id": "LND-0034",
+      "pdf": "pdf/submission-034.pdf",
+      "csv": "csv/submission-034.csv",
+      "pages": 1,
+      "sha256": "e2c130874b5d423bfeeb6529ad896abd12d442da5beee72bfdb11b8ef0e2419c",
+      "expected_status": "MISMATCHED_WITH_DATABASE",
+      "declared_changed_fields": [
+        "mouza"
+      ],
+      "expected_database_values": {
+        "mouza": "Shalikdanga West"
+      },
+      "document_values": {
+        "mouza": "Shaplanir East"
+      }
+    },
+    {
+      "case_id": "CHK-2026-0035",
+      "baseline_record_id": "LND-0035",
+      "pdf": "pdf/submission-035.pdf",
+      "csv": "csv/submission-035.csv",
+      "pages": 1,
+      "sha256": "00ccdfd78fe98c31b06eb9a1435f47ec124aa8565b5ab1ea94ef3a9c5202fc13",
+      "expected_status": "MISMATCHED_WITH_DATABASE",
+      "declared_changed_fields": [
+        "survey"
+      ],
+      "expected_database_values": {
+        "survey": "RS"
+      },
+      "document_values": {
+        "survey": "BS"
+      }
+    },
+    {
+      "case_id": "CHK-2026-0036",
+      "baseline_record_id": "LND-0036",
+      "pdf": "pdf/submission-036.pdf",
+      "csv": "csv/submission-036.csv",
+      "pages": 1,
+      "sha256": "feeea768879dddb61151813e761b91b3e3f7a21826fcd90cc611dbea8fb2b807",
+      "expected_status": "MISMATCHED_WITH_DATABASE",
+      "declared_changed_fields": [
+        "area"
+      ],
+      "expected_database_values": {
+        "area": "46.00"
+      },
+      "document_values": {
+        "area": "42.50"
+      }
+    },
+    {
+      "case_id": "CHK-2026-0037",
+      "baseline_record_id": "LND-0037",
+      "pdf": "pdf/submission-037.pdf",
+      "csv": "csv/submission-037.csv",
+      "pages": 1,
+      "sha256": "e09eeb099f4c7b9c2eaec11185f07693026d3158063c6f015dcdd798dc4fb4f1",
+      "expected_status": "MISMATCHED_WITH_DATABASE",
+      "declared_changed_fields": [
+        "seller_share"
+      ],
+      "expected_database_values": {
+        "seller_share": "1"
+      },
+      "document_values": {
+        "seller_share": "1/2"
+      }
+    },
+    {
+      "case_id": "CHK-2026-0038",
+      "baseline_record_id": "LND-0038",
+      "pdf": "pdf/submission-038.pdf",
+      "csv": "csv/submission-038.csv",
+      "pages": 1,
+      "sha256": "794f988edab8327b86fd0f5e9df658eb5ef56411050481f9aa216fd88d305c54",
+      "expected_status": "MISMATCHED_WITH_DATABASE",
+      "declared_changed_fields": [
+        "deed_number"
+      ],
+      "expected_database_values": {
+        "deed_number": "40038"
+      },
+      "document_values": {
+        "deed_number": "78194"
+      }
+    },
+    {
+      "case_id": "CHK-2026-0039",
+      "baseline_record_id": "LND-0039",
+      "pdf": "pdf/submission-039.pdf",
+      "csv": "csv/submission-039.csv",
+      "pages": 1,
+      "sha256": "699ba6b8c61e8cf065e473a210bd57dd305c61b835ff58aeba8d8a0788376136",
+      "expected_status": "MISMATCHED_WITH_DATABASE",
+      "declared_changed_fields": [
+        "deed_date"
+      ],
+      "expected_database_values": {
+        "deed_date": "2024-02-09"
+      },
+      "document_values": {
+        "deed_date": "2024-05-17"
+      }
+    },
+    {
+      "case_id": "CHK-2026-0040",
+      "baseline_record_id": "LND-0040",
+      "pdf": "pdf/submission-040.pdf",
+      "csv": "csv/submission-040.csv",
+      "pages": 1,
+      "sha256": "f49e8deb07a528305ec911a132fa1a363de9cb5ebec7054ff44b5bf851b0d329",
+      "expected_status": "MISMATCHED_WITH_DATABASE",
+      "declared_changed_fields": [
+        "registration_date"
+      ],
+      "expected_database_values": {
+        "registration_date": "2024-02-17"
+      },
+      "document_values": {
+        "registration_date": "2024-06-02"
+      }
+    },
+    {
+      "case_id": "CHK-2026-0041",
+      "baseline_record_id": "LND-0041",
+      "pdf": "pdf/submission-041.pdf",
+      "csv": "csv/submission-041.csv",
+      "pages": 1,
+      "sha256": "1e5f65e8bf2757596b1df285d0c49a49dd7d0dc42450ceb4f38257b735d85ad8",
+      "expected_status": "MISMATCHED_WITH_DATABASE",
+      "declared_changed_fields": [
+        "previous_owner"
+      ],
+      "expected_database_values": {
+        "previous_owner": "Mahmudul Karim"
+      },
+      "document_values": {
+        "previous_owner": "Nusrat Rahman"
+      }
+    },
+    {
+      "case_id": "CHK-2026-0042",
+      "baseline_record_id": "LND-0042",
+      "pdf": "pdf/submission-042.pdf",
+      "csv": "csv/submission-042.csv",
+      "pages": 1,
+      "sha256": "96e097903a10c4540e7740f3e1d6e4d2ff1699c9ad52c8a1680c9262dbd3d758",
+      "expected_status": "MISMATCHED_WITH_DATABASE",
+      "declared_changed_fields": [
+        "previous_deed"
+      ],
+      "expected_database_values": {
+        "previous_deed": "20042"
+      },
+      "document_values": {
+        "previous_deed": "34198"
+      }
+    },
+    {
+      "case_id": "CHK-2026-0043",
+      "baseline_record_id": "LND-0043",
+      "pdf": "pdf/submission-043.pdf",
+      "csv": "csv/submission-043.csv",
+      "pages": 1,
+      "sha256": "63c1dcef9f43ed3e03da7ae67e56aefec0345451f16fecc86fcef77fba2decaf",
+      "expected_status": "MISMATCHED_WITH_DATABASE",
+      "declared_changed_fields": [
+        "previous_deed_date"
+      ],
+      "expected_database_values": {
+        "previous_deed_date": "2016-02-10"
+      },
+      "document_values": {
+        "previous_deed_date": "2016-03-08"
+      }
+    },
+    {
+      "case_id": "CHK-2026-0044",
+      "baseline_record_id": "LND-0044",
+      "pdf": "pdf/submission-044.pdf",
+      "csv": "csv/submission-044.csv",
+      "pages": 1,
+      "sha256": "7a948fc6833307e5d7cd034744402bbf440db775c55712d1f09c904432a3cd76",
+      "expected_status": "MISMATCHED_WITH_DATABASE",
+      "declared_changed_fields": [
+        "mutation_status"
+      ],
+      "expected_database_values": {
+        "mutation_status": "Completed"
+      },
+      "document_values": {
+        "mutation_status": "Pending"
+      }
+    },
+    {
+      "case_id": "CHK-2026-0045",
+      "baseline_record_id": "LND-0045",
+      "pdf": "pdf/submission-045.pdf",
+      "csv": "csv/submission-045.csv",
+      "pages": 1,
+      "sha256": "ed300b485ef140d55b3fc672c9a7a4136c5fdaa59310dc4ebea2018ed2857cb2",
+      "expected_status": "MISMATCHED_WITH_DATABASE",
+      "declared_changed_fields": [
+        "tax_year"
+      ],
+      "expected_database_values": {
+        "tax_year": "2025-2026"
+      },
+      "document_values": {
+        "tax_year": "2023-2024"
+      }
+    },
+    {
+      "case_id": "CHK-2026-0046",
+      "baseline_record_id": "LND-0046",
+      "pdf": "pdf/submission-046.pdf",
+      "csv": "csv/submission-046.csv",
+      "pages": 1,
+      "sha256": "c01429e074800bd63550f186be972e0421970f41fc4f67bd0a1227a764d7ba26",
+      "expected_status": "MISMATCHED_WITH_DATABASE",
+      "declared_changed_fields": [
+        "tax_status"
+      ],
+      "expected_database_values": {
+        "tax_status": "Paid"
+      },
+      "document_values": {
+        "tax_status": "Unpaid"
+      }
+    },
+    {
+      "case_id": "CHK-2026-0047",
+      "baseline_record_id": "LND-0047",
+      "pdf": "pdf/submission-047.pdf",
+      "csv": "csv/submission-047.csv",
+      "pages": 1,
+      "sha256": "dbeb52530967cb0e66210d47d50c295938afb1a3bec92e5feb85a0bb2142aba9",
+      "expected_status": "MISMATCHED_WITH_DATABASE",
+      "declared_changed_fields": [
+        "jl"
+      ],
+      "expected_database_values": {
+        "jl": "77"
+      },
+      "document_values": {
+        "jl": "219"
+      }
+    },
+    {
+      "case_id": "CHK-2026-0048",
+      "baseline_record_id": "LND-0048",
+      "pdf": "pdf/submission-048.pdf",
+      "csv": "csv/submission-048.csv",
+      "pages": 1,
+      "sha256": "8343cd73933f21f9323162813f4d1edf6003ade81c42dc590a95e6bd6c79e520",
+      "expected_status": "MISMATCHED_WITH_DATABASE",
+      "declared_changed_fields": [
+        "classification"
+      ],
+      "expected_database_values": {
+        "classification": "Agricultural"
+      },
+      "document_values": {
+        "classification": "Homestead"
+      }
+    },
+    {
+      "case_id": "CHK-2026-0049",
+      "baseline_record_id": "LND-0049",
+      "pdf": "pdf/submission-049.pdf",
+      "csv": "csv/submission-049.csv",
+      "pages": 1,
+      "sha256": "98a774b75f5b565ff5980d4c72981f4df354029eb533042177ca7adc4aee0e03",
+      "expected_status": "MISMATCHED_WITH_DATABASE",
+      "declared_changed_fields": [
+        "upazila"
+      ],
+      "expected_database_values": {
+        "upazila": "Savar"
+      },
+      "document_values": {
+        "upazila": "Keraniganj"
+      }
+    },
+    {
+      "case_id": "CHK-2026-0050",
+      "baseline_record_id": "LND-0050",
+      "pdf": "pdf/submission-050.pdf",
+      "csv": "csv/submission-050.csv",
+      "pages": 1,
+      "sha256": "746cc758d1e218a2f715c690c0d5bd76c4da6ad0874c551729c4201444a8f67f",
+      "expected_status": "MISMATCHED_WITH_DATABASE",
+      "declared_changed_fields": [
+        "previous_owner"
+      ],
+      "expected_database_values": {
+        "previous_owner": "Nusrat Karim"
+      },
+      "document_values": {
+        "previous_owner": ""
+      }
+    }
+  ]
+}
