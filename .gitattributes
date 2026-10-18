@@ -1,0 +1,15 @@
+# Keep GitHub's language summary focused on the maintained application source.
+public/vendor/** linguist-vendored
+vendor/** linguist-vendored
+components/ui/** linguist-vendored
+public/downloads/** linguist-documentation
+pnpm-lock.yaml linguist-generated
+docs/** linguist-documentation
+
+# Preserve binary assets across platforms.
+*.pdf binary
+*.png binary
+*.jpg binary
+*.wasm binary
+*.traineddata binary
+*.zip binary
