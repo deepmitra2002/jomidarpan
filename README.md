@@ -2,7 +2,7 @@
 <h1 align="center">জমিদর্পণ · Jomidarpan</h1>
 <p align="center">জমি কেনার আগে বিক্রেতার দেওয়া তথ্য মিলিয়ে দেখুন।</p>
 <p align="center">A Bengali-first land-document comparison app for buyers in Bangladesh.</p>
-<p align="center"><a href="https://jomidarpan.dncorleone1211.chatgpt.site">Open the live app</a> · <a href="docs/USER_GUIDE.md">User guide</a> · <a href="docs/ARCHITECTURE.md">Architecture</a> · <a href="docs/SCREENSHOTS.md">Screenshot guide</a></p>
+<p align="center"><a href="https://jomidarpan.dncorleone1211.chatgpt.site">Open the live app</a> · <a href="USER_GUIDE.md">User guide</a> · <a href="ARCHITECTURE.md">Architecture</a> · <a href="SCREENSHOTS.md">Screenshot guide</a></p>
 
 ## Complete source download
 
